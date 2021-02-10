@@ -1,6 +1,8 @@
 import model.Autor;
 import model.Editora;
 import model.Livro;
+import model.ListaDesejos;
+import model.Perfil;
 
 class App {
   public static void main(String[] args) {
