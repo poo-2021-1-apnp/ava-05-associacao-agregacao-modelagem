@@ -1,7 +1,7 @@
 import model.Autor;
 import model.Editora;
-import model.Livro;
 import model.ListaDesejos;
+import model.Livro;
 import model.Perfil;
 
 class App {
@@ -91,7 +91,8 @@ class App {
     System.out.println(meuPerfil.getListaDesejos("Comprar Urgente").getLivro(1).equals(criacaoImperfeita));
 
     // navegando no grafo de objetos
-    System.out.println(meuPerfil.getListaDesejos("Minha lista").getLivro(0).getAutor().equals(gleiser));
+    System.out.println(meuPerfil.getListaDesejos("Minha lista").getLivro(0).getAutor().getNome()); // "Marcelo Gleiser"
+    System.out.println(meuPerfil.getListaDesejos("Minha lista").getLivro(0).getAutor().getNome().equals("Marcelo Gleiser"));
 
   }
 }
