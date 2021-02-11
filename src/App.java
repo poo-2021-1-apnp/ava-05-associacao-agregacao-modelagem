@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 import model.Autor;
 import model.Editora;
 import model.ListaDesejos;
@@ -56,7 +58,11 @@ class App {
     ListaDesejos minhaLista = meuPerfil.criarNovaListaDesejos("Minha lista");
     System.out.println(minhaLista != null);
     System.out.println(minhaLista.getNome().equals("Minha lista"));
-    System.out.println(meuPerfil.getListas().size() == 1);
+
+    // Existe uma lista
+    ArrayList listas = meuPerfil.getListas();
+    System.out.println(listas.size() == 1);
+
     // adicionar dois livros à lista
     minhaLista.adicionar(caldeiraoAzul);
     minhaLista.adicionar(pequenoTratado);
@@ -73,6 +79,8 @@ class App {
     ListaDesejos listaUrgente = meuPerfil.criarNovaListaDesejos("Comprar Urgente");
     System.out.println(listaUrgente != null);
     System.out.println(listaUrgente.getNome().equals("Comprar Urgente"));
+
+    // Existem duas listas
     System.out.println(meuPerfil.getListas().size() == 2);
     // adiciona um livro
     listaUrgente.adicionar(felicidadeDesesperadamente);
