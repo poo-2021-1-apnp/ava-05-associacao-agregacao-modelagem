@@ -1,10 +1,3 @@
-import java.util.ArrayList;
-
-import model.Autor;
-import model.Editora;
-import model.ListaDesejos;
-import model.Livro;
-import model.Perfil;
 
 class App {
   public static void main(String[] args) {
