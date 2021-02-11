@@ -1,6 +1,6 @@
 # Avaliação 05 Associação, Agregação e Modelagem.
 
-Link do Classroom: <>
+Link do Classroom: <https://classroom.github.com/a/ovVOwafB>
 
 [Solicitações especiais ...](https://www.youtube.com/watch?v=YdVQzJKx1F4)
 
